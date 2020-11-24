@@ -14,6 +14,7 @@ app._static_folder = os.path.abspath("templates/static/")
 def capture_video():
     return render_template('index.html')
 
+#cheat navigation
 @app.route('/cheat')
 def is_cheat():
     return fm.frames()
