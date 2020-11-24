@@ -8,6 +8,7 @@ import os
 app = Flask(__name__)
 app._static_folder = os.path.abspath("templates/static/")
 
+#Home Navigation
 @app.route('/')
 @app.route('/video')
 def capture_video():
